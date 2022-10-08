@@ -1,1 +1,1 @@
-this is a costum NFT card
+This is a costum NFT card

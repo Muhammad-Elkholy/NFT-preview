@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contener{
+    width: 22em;
+    color: white;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px hsl(217, 54%, 11%);
+}
+.img1{
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+.main-img{
+    position: relative;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: hsl(178, 100%, 50%);
+    width: 100%;
+    height: 100%;
+    transition: 0.45s ease;
+    border-radius: 10px;
+    opacity:0;
+}
+.main-img:hover .overlay{
+opacity: 0.2;
+}
+.view {
+    position: absolute;
+    top: 38%;
+    left: 38%;
+    transition: 0.45s ease;
+    opacity:0;
+    height: 25%;
+    width: 25%;
+
+}
+.main-img:hover .view{
+    opacity: 1;
+}
+
+
+ /* Section2 */
+h5{
+    margin: 15px 0;
+    font-weight: 600;
+}a{
+    text-decoration: none;
+    color:white;
+}h5 :hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.details img{
+    height: max-content;
+    padding: 5px;
+}
+.con{
+    display: flex;  
+    align-items: center;
+}
+.text{
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight:400 ;
+    color: hsl(215, 51%, 70%);
+}
+.cost{
+    font-family: 'Outfit', sans-serif;
+    font-weight:600 ;
+    color: hsl(178, 100%, 50%);
+}
+hr{
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    opacity: 0.2;
+}
+.avatar-con{
+    height: 3em;
+    margin:15px 0 10px 0;
+}
+.avatar-con img{
+    border: 1px solid #fff;
+    border-radius: 100%;
+    position: relative;
+    height: 2.3em;
+    margin-right: 10px;
+}
+.avatar-text{
+    font-weight:300px;
+}
+.avatar-con a:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+/* Feel free to remove these styles or customise in your own stylesheet 
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }*/
